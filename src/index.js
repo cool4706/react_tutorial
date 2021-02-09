@@ -63,7 +63,7 @@ class Game extends React.Component {
     const winner = calculateWinner(squares);
     
     if (winner) {
-      alert('winner is ' + winner);
+      alert('!winner is ' + winner);
       return
     }
     
